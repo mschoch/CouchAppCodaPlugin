@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E07DB7BD138AC2A900640C60 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E07DB7BC138AC2A900640C60 /* Cocoa.framework */; };
+		E07DB7C7138AC2A900640C60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E07DB7C5138AC2A900640C60 /* InfoPlist.strings */; };
+		E07DB7D0138AC30700640C60 /* CouchAppCodaPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = E07DB7CF138AC30700640C60 /* CouchAppCodaPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E07DB7B9138AC2A900640C60 /* CouchAppCodaPlugin.codaplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouchAppCodaPlugin.codaplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		E07DB7BC138AC2A900640C60 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E07DB7BF138AC2A900640C60 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E07DB7C0138AC2A900640C60 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E07DB7C1138AC2A900640C60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E07DB7C4138AC2A900640C60 /* CouchAppCodaPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CouchAppCodaPlugin-Info.plist"; sourceTree = "<group>"; };
+		E07DB7C6138AC2A900640C60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E07DB7C8138AC2A900640C60 /* CouchAppCodaPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CouchAppCodaPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		E07DB7CE138AC30700640C60 /* CouchAppCodaPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CouchAppCodaPlugin.h; sourceTree = "<group>"; };
+		E07DB7CF138AC30700640C60 /* CouchAppCodaPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CouchAppCodaPlugin.m; sourceTree = "<group>"; };
+		E07DB7D1138AC36C00640C60 /* CodaPlugInsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodaPlugInsController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E07DB7B6138AC2A900640C60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07DB7BD138AC2A900640C60 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E07DB7AE138AC2A900640C60 = {
+			isa = PBXGroup;
+			children = (
+				E07DB7C2138AC2A900640C60 /* CouchAppCodaPlugin */,
+				E07DB7BB138AC2A900640C60 /* Frameworks */,
+				E07DB7BA138AC2A900640C60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E07DB7BA138AC2A900640C60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E07DB7B9138AC2A900640C60 /* CouchAppCodaPlugin.codaplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E07DB7BB138AC2A900640C60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E07DB7BC138AC2A900640C60 /* Cocoa.framework */,
+				E07DB7BE138AC2A900640C60 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E07DB7BE138AC2A900640C60 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E07DB7BF138AC2A900640C60 /* AppKit.framework */,
+				E07DB7C0138AC2A900640C60 /* CoreData.framework */,
+				E07DB7C1138AC2A900640C60 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E07DB7C2138AC2A900640C60 /* CouchAppCodaPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				E07DB7C3138AC2A900640C60 /* Supporting Files */,
+				E07DB7CE138AC30700640C60 /* CouchAppCodaPlugin.h */,
+				E07DB7CF138AC30700640C60 /* CouchAppCodaPlugin.m */,
+			);
+			path = CouchAppCodaPlugin;
+			sourceTree = "<group>";
+		};
+		E07DB7C3138AC2A900640C60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E07DB7D1138AC36C00640C60 /* CodaPlugInsController.h */,
+				E07DB7C4138AC2A900640C60 /* CouchAppCodaPlugin-Info.plist */,
+				E07DB7C5138AC2A900640C60 /* InfoPlist.strings */,
+				E07DB7C8138AC2A900640C60 /* CouchAppCodaPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E07DB7B8138AC2A900640C60 /* CouchAppCodaPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E07DB7CB138AC2A900640C60 /* Build configuration list for PBXNativeTarget "CouchAppCodaPlugin" */;
+			buildPhases = (
+				E07DB7B5138AC2A900640C60 /* Sources */,
+				E07DB7B6138AC2A900640C60 /* Frameworks */,
+				E07DB7B7138AC2A900640C60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CouchAppCodaPlugin;
+			productName = CouchAppCodaPlugin;
+			productReference = E07DB7B9138AC2A900640C60 /* CouchAppCodaPlugin.codaplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E07DB7B0138AC2A900640C60 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = E07DB7B3138AC2A900640C60 /* Build configuration list for PBXProject "CouchAppCodaPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E07DB7AE138AC2A900640C60;
+			productRefGroup = E07DB7BA138AC2A900640C60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E07DB7B8138AC2A900640C60 /* CouchAppCodaPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E07DB7B7138AC2A900640C60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07DB7C7138AC2A900640C60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E07DB7B5138AC2A900640C60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E07DB7D0138AC30700640C60 /* CouchAppCodaPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E07DB7C5138AC2A900640C60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E07DB7C6138AC2A900640C60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E07DB7C9138AC2A900640C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E07DB7CA138AC2A900640C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E07DB7CC138AC2A900640C60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CouchAppCodaPlugin/CouchAppCodaPlugin-Prefix.pch";
+				INFOPLIST_FILE = "CouchAppCodaPlugin/CouchAppCodaPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = codaplugin;
+			};
+			name = Debug;
+		};
+		E07DB7CD138AC2A900640C60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CouchAppCodaPlugin/CouchAppCodaPlugin-Prefix.pch";
+				INFOPLIST_FILE = "CouchAppCodaPlugin/CouchAppCodaPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = codaplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E07DB7B3138AC2A900640C60 /* Build configuration list for PBXProject "CouchAppCodaPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07DB7C9138AC2A900640C60 /* Debug */,
+				E07DB7CA138AC2A900640C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E07DB7CB138AC2A900640C60 /* Build configuration list for PBXNativeTarget "CouchAppCodaPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E07DB7CC138AC2A900640C60 /* Debug */,
+				E07DB7CD138AC2A900640C60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E07DB7B0138AC2A900640C60 /* Project object */;
+}
